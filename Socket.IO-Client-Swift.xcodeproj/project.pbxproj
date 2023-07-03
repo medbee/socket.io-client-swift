@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,8 +23,8 @@
 		6CA08A981D615C0B0061FD2A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA08A971D615C0B0061FD2A /* Security.framework */; };
 		74BF53581F894326004972D8 /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 572EF23C1B51F18A00EEBB58 /* SocketIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9432E00F1F77F8C4006AF628 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9432E0061F77F7CA006AF628 /* SSLSecurity.swift */; };
-		CDCF879329DE849900900A17 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCF879229DE849900900A17 /* Starscream.xcframework */; };
-		CDCF879429DE849900900A17 /* Starscream.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDCF879229DE849900900A17 /* Starscream.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDCF879329DE849900900A17 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCF879229DE849900900A17 /* Starscream.xcframework */; platformFilters = (macos, ); };
+		CDCF879429DE849900900A17 /* Starscream.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDCF879229DE849900900A17 /* Starscream.xcframework */; platformFilters = (macos, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD52B048C71D724ABBD18C71 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52BDC9E66AADA2CC5E8246 /* SocketTypes.swift */; };
 		DD52B11AF936352BAE30B2C8 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52BA240D139F72633D4159 /* SocketStringReader.swift */; };
 		DD52B1F8BA0455EBE7C1B93E /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52BFF2E3216CDC364BB8AF /* SocketAckEmitter.swift */; };
